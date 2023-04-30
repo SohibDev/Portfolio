@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileDownload } from "@fortawesome/free-solid-svg-icons";
 import profile from "../images/das2.jpg";
 import profile2 from "../images/profile2.jpg";
-import resume from '../files/US.pdf'
+import resume from '../files/USresume.pdf'
 
 function PortfolioHero() {
   const heroImageUrl = profile;
@@ -37,7 +37,7 @@ function PortfolioHero() {
               </a>
               <Button variant="outline-light" size="lg" href={resume}>
                 <FontAwesomeIcon icon={faFileDownload} className="me-2" />
-                Download CV
+                See & Download CV
               </Button>
             </div>
           </Col>
