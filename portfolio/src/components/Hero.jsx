@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileDownload } from "@fortawesome/free-solid-svg-icons";
 import profile from "../images/das2.jpg";
 import profile2 from "../images/profile2.jpg";
-import resume from '../files/USresume.pdf'
+import resume from '../files/ResumeUS.pdf'
 
 function PortfolioHero() {
   const heroImageUrl = profile;
