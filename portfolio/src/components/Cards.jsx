@@ -12,7 +12,7 @@ const Card = () => {
             <p class="copy">
               Its Api is from TMDB site! Made by only React and Bootstrap
             </p>
-            <a href="https://uzum-project.vercel.app/">
+            <a href="https://bejewelled-creponne-bce146.netlify.app/">
               <button class="btn">View</button>
             </a>
           </div>
