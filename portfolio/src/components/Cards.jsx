@@ -12,7 +12,7 @@ const Card = () => {
             <p class="copy">
               Its Api is from TMDB site! Made by only React and Bootstrap
             </p>
-            <a href="https://bejewelled-creponne-bce146.netlify.app/">
+            <a href="https://neflix-git-main-sohibdev.vercel.app/">
               <button class="btn">View</button>
             </a>
           </div>
@@ -39,7 +39,7 @@ const Card = () => {
           <div class="content">
             <h2 class="title">Uzum Clone</h2>
             <p class="copy">Uzum Market clone site! HTML, Css, JS</p>
-            <a href="https://uzum0101-uz.netlify.app">
+            <a href="https://bejewelled-creponne-bce146.netlify.app/">
               <button class="btn">View</button>
             </a>
           </div>
