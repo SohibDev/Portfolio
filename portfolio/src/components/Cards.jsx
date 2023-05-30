@@ -26,7 +26,7 @@ const Card = () => {
             </a>
           </div>
         </div>
-        <div class="card">
+        {/* <div class="card">
           <div class="content">
             <h2 class="title">Twitter Clone</h2>
             <p class="copy">React, Tailwind</p>
@@ -34,7 +34,7 @@ const Card = () => {
               <button class="btn">View</button>
             </a>
           </div>
-        </div>
+        </div> */}
         <div class="card">
           <div class="content">
             <h2 class="title">Uzum Clone</h2>
@@ -48,7 +48,7 @@ const Card = () => {
           <div class="content">
             <h2 class="title">Countries</h2>
             <p class="copy">React, Bootstrap</p>
-            <a href="https://countries0101.netlify.app/">
+            <a href="https://countries01.vercel.app/">
               <button class="btn">View</button>
             </a>
           </div>
@@ -62,7 +62,7 @@ const Card = () => {
             </a>
           </div>
         </div>
-        <div class="card">
+        {/* <div class="card">
           <div class="content">
             <h2 class="title">BookStore</h2>
             <p class="copy">HTML, CSS, JS</p>
@@ -70,7 +70,7 @@ const Card = () => {
               <button class="btn">View</button>
             </a>
           </div>
-        </div>
+        </div> */}
         <div class="card">
           <div class="content">
             <h2 class="title">My Team</h2>

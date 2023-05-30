@@ -88,25 +88,25 @@ body {
   background-image: url('../images/todo.png');
   background-position: center;
 }
-.card:nth-child(3):before {
+/* .card:nth-child(3):before {
   background-image: url('../images/twitter.png');
-}
-.card:nth-child(4):before {
+} */
+.card:nth-child(3):before {
   background-image: url('../images/uzum.png');
   background-position: right;
 }
-.card:nth-child(5):before {
+.card:nth-child(4):before {
   background-image: url('../images/countries.png');
   background-position: center;
 }
-.card:nth-child(6):before {
+.card:nth-child(5):before {
   background-image: url('../images/Ecommerce.png');
 }
-.card:nth-child(7):before {
+/* .card:nth-child(6):before {
   background-image: url('../images/Bookmark.png');
   background-position: right;
-}
-.card:nth-child(8):before {
+} */
+.card:nth-child(6):before {
   background-image: url('../images/myteam.png');
 }
 
