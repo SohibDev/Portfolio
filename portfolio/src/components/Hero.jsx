@@ -4,19 +4,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileDownload } from "@fortawesome/free-solid-svg-icons";
 import profile from "../images/das2.jpg";
 import profile2 from "../images/profi.jpg";
-import resume from '../files/ResumeUS.pdf'
+import resume from "../files/US_Coder.pdf";
 
 function PortfolioHero() {
   const heroImageUrl = profile;
 
   return (
     <div
+      id="home"
       className="hero-section rounded-5"
       style={{ backgroundImage: `url(${heroImageUrl})`, marginTop: "90px" }}
     >
       <Container>
         <Row
-          className="justify-content-center align-items-center"
+          className="justify-content-center align-items-center position-relative"
           style={{ height: "50vh" }}
         >
           <Col md={8} lg={6} className="text-start">
@@ -27,15 +28,16 @@ function PortfolioHero() {
             </p>
             <div className="d-flex flex-row">
               <a href="https://t.me/sohibjon0101" target="_blank">
-                <Button
-                  variant="primary"
-                  size="lg"
-                  className="me-3"
-                >
+                <Button variant="primary" size="lg" className="me-3">
                   Hire Me
                 </Button>
               </a>
-              <Button variant="outline-light" size="lg" href={resume}>
+              <Button
+                variant="outline-light"
+                size="lg"
+                target="_blank"
+                href={resume}
+              >
                 <FontAwesomeIcon icon={faFileDownload} className="me-2" />
                 See & Download CV
               </Button>
@@ -45,7 +47,13 @@ function PortfolioHero() {
             <img
               src={profile2}
               alt=""
-              style={{ maxHeight: "50vh", maxWidth: "500px" }}
+              style={{
+                maxHeight: "50vh",
+                maxWidth: "500px",
+                position: "absolute",
+                right: "0px",
+                top: " 0px",
+              }}
               className="rounded-end-4"
             />
           </Col>
